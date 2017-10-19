@@ -35,7 +35,7 @@ namespace XF.Hello
         {
             Navigation.PushAsync(new HomePage());
         }
-
+         
         void btnConfig_Clicked(object sender, EventArgs args)
         {
             Navigation.PushAsync(new ConfigPage());
